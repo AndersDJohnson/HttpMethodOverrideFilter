@@ -3,7 +3,7 @@ HttpMethodOverrideFilter
 
 A Java servlet filter supporting HTTP method overrides by query parameter or HTTP header.
 
-Allows HTTP method overrides for requests using a `_method` query parameter, e.g. `?method=POST`,
+Allows HTTP method overrides for requests using a `_method` query parameter, e.g. `?_method=POST`,
 or a `X-HTTP-Method-Override` header, e.g. `X-HTTP-Method-Override: POST`.
 
 Similar to [Spring's HiddenHttpMethodFilter](
