@@ -12,6 +12,8 @@ but no dependency on Spring, and not just query parameter support.
 
 ## Usage
 
+Download the JAR and add it to your app in the runtime classpath. A zipped JAR is available on the latest release, e.g. [1.0.0-SNAPSHOT](https://github.com/AndersDJohnson/HttpMethodOverrideFilter/releases/download/1.0.0-SNAPSHOT/HttpMethodOverrideFilter-1.0.0-SNAPSHOT.jar.zip)
+
 In your `web.xml`, add something like the following:
 
 ```xml
